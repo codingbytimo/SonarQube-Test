@@ -43,6 +43,22 @@ public class App
             System.out.println("Repeat: " + i);
         }
 
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Repeat: " + i);
+        }
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Repeat: " + i);
+        }
+
+        if (true) {
+            System.out.println("True");
+        }
+
+        if (true) {
+            System.out.println("True");
+        }
+
         veryLongMethod(); 
 
         while (true) {
