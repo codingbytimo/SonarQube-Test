@@ -35,6 +35,11 @@ public class App
             System.out.println("This will never run.");
         }
 
+        String result2 = "";
+        for (int i = 0; i < 100; i++) {
+            result2 += i; // Creates a new String object on each iteration
+        }
+
         for (int i = 0; i < 3; i++) {
             System.out.println("Repeat: " + i);
         }
@@ -71,6 +76,15 @@ public class App
     }
 
     public static void veryLongMethod() {
+        int sum = 0;
+        for (int i = 0; i < 100; i++) {
+            sum += i;
+            System.out.print("");
+        }
+        System.out.println("Sum is " + sum);
+    }
+
+    public static void veryLongMethodTwo() {
         int sum = 0;
         for (int i = 0; i < 100; i++) {
             sum += i;
